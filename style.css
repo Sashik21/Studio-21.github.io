@@ -49,7 +49,8 @@
 
 blockquote {
   display: block;
-  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: center;
   max-width: 900px;
 }
@@ -64,7 +65,7 @@ p {
   font-family: "georgiapro-condensed", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 2.7rem;
+  font-size: 27px;
   color: #fff;
   padding-bottom: 2rem;
   line-height: 1.3; /* Adjust this value to increase the line spacing */
@@ -74,10 +75,9 @@ cite {
   font-family: "neulis-sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 24px;
   color: #aaa;
   opacity: 0;
-  font-weight: bold;
 }
 
 cite.animate {
@@ -129,9 +129,10 @@ span.animate {
 
 #announcement p {
   font-family: "neulis-sans", sans-serif;
-  font-weight: 900;
+  font-weight: 500;
   font-style: normal;
-  font-size: 40px;
+  font-size: 28px;
+
   color: #222222;
   opacity: 0;
   margin: 2px 0;
