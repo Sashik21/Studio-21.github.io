@@ -152,7 +152,7 @@
         });
 
         TweenLite.delayedCall((maxDuration + maxDelay), () => {
-            const baseDelay = 4;
+            const baseDelay = 7; // Changed from 3 to 5 to extend the visibility duration
             TweenLite.set(words, { className:"-=animate", delay: baseDelay });
             TweenLite.set(cite, { className:"-=animate", delay: (baseDelay) });
 
